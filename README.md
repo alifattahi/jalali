@@ -1,4 +1,4 @@
-miladr/jalali
+alifattahi/jalali
 ======
 
 This Package helps developers to easily work with Jalali (Shamsi or Iranian) dates in Laravel 4 applications, based on Jalali (Shamsi) DateTime class. This Package is based on a Laravel 3 bundle [sallar/laravel-jdate](https://github.com/sallar/laravel-jdate) by [Sallar Kaboli](http://sallar.me).
@@ -9,14 +9,14 @@ This Package helps developers to easily work with Jalali (Shamsi or Iranian) dat
 In the `require` key of `composer.json` file add the following
 
 ```yml
-    "miladr/jalali": "dev-master"
+    "alifattahi/jalali": "dev-master"
 ```
 
 Run the Composer update comand
 
     $ composer update
 
-In your `config/app.php` add `'Miladr\Jalali\JalaliServiceProvider'` to the end of the `$providers` array
+In your `config/app.php` add `'Alifattahi\Jalali\JalaliServiceProvider'` to the end of the `$providers` array
 
 ```php
     'providers' => array(
@@ -24,7 +24,7 @@ In your `config/app.php` add `'Miladr\Jalali\JalaliServiceProvider'` to the end 
         'Illuminate\Foundation\Providers\ArtisanServiceProvider',
         'Illuminate\Auth\AuthServiceProvider',
         ...
-        'Miladr\Jalali\JalaliServiceProvider',
+        'Alifattahi\Jalali\JalaliServiceProvider',
 
     ),
 ```
